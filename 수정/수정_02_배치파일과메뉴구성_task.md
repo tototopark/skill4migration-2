@@ -8,9 +8,9 @@
   - [x] `functions.inc.php` 및 `1.php`에 정의된 핵심 룰 이전 (`src/domain.py`, `src/service.py`)
   - [x] PHP `$2y$` 시작 bcrypt 패스워드 호환 검증기 구현
   - [x] IP 및 디바이스(private key) 검증 로직 구현
-- [ ] **3단계: API 엔드포인트 구현 (FastAPI)**
-  - [ ] `auth.py`, `jobs.py`, `home.py` 개별 모듈화 설계 (파일당 300줄 제약 엄수)
-  - [ ] 메인 라우터 `api_router.py` 연결
+- [x] **3단계: API 엔드포인트 구현 (FastAPI)**
+  - [x] `auth.py`, `jobs.py`, `home.py` 개별 모듈화 설계 (파일당 300줄 제약 엄수)
+  - [x] 메인 라우터 `api_router.py` 연결 (src/main.py 로 대체 완결)
 - [ ] **4단계: 개발자 진단용 힌트(DevHints) 및 스위치 추가**
   - [ ] 화면 하단에 바인딩할 API, 파일 경로 메타데이터 수집 컴포넌트 설계
   - [ ] 환경 변수 (`SHOW_DEV_HINTS`) 연동 스위치 개발
