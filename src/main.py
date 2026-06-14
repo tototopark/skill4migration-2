@@ -2,7 +2,7 @@ import os
 import sys
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from src.http import auth, jobs, home
+from src.http import auth, jobs, home, dev_hints
 
 app = FastAPI(
     title="Pengelly Engineers Migration API",
@@ -23,6 +23,7 @@ app.add_middleware(
 app.include_router(home.router)
 app.include_router(auth.router)
 app.include_router(jobs.router)
+app.include_router(dev_hints.router)
 
 if __name__ == "__main__":
     print("Initializing FastAPI web app structure test...")
