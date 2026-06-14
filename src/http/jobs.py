@@ -4,7 +4,7 @@ from typing import Optional, List
 import sqlite3
 
 router = APIRouter(prefix="/jobs", tags=["jobs"])
-DB_FILE = "storage/db.sqlite3"
+DB_FILE = "f:/pe/public_html/test-migration/skill4migration-2/storage/db.sqlite3"
 
 def get_db():
     conn = sqlite3.connect(DB_FILE)

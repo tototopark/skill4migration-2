@@ -4,7 +4,7 @@ import sqlite3
 from src.domain import check_php_bcrypt_compatibility
 
 router = APIRouter(prefix="/auth", tags=["auth"])
-DB_FILE = "storage/db.sqlite3"
+DB_FILE = "f:/pe/public_html/test-migration/skill4migration-2/storage/db.sqlite3"
 
 def get_db():
     conn = sqlite3.connect(DB_FILE)

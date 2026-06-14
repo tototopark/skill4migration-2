@@ -3,7 +3,7 @@ import csv
 import sqlite3
 import shutil
 
-DB_FILE = "storage/db.sqlite3"
+DB_FILE = "f:/pe/public_html/test-migration/skill4migration-2/storage/db.sqlite3"
 
 # SQLite 스키마 정의
 SCHEMA_SQL = """
@@ -104,7 +104,7 @@ def safe_int(val, default=0):
         except ValueError:
             return default
 
-def import_csv_data(conn, csv_dir="sitepro/SQL_DL_FILE-Dev"):
+def import_csv_data(conn, csv_dir="f:/pe/public_html/test-migration/sitepro/SQL_DL_FILE-Dev"):
     cursor = conn.cursor()
     
     # 1. tb_login 임포트
