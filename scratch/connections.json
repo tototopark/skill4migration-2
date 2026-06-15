@@ -1,0 +1,694 @@
+{
+  "1.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": true,
+    "has_upload": false
+  },
+  "10.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": true,
+    "has_upload": false
+  },
+  "11.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": true,
+    "has_upload": false
+  },
+  "12.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": true,
+    "has_upload": true
+  },
+  "13.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": true,
+    "has_upload": false
+  },
+  "14.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": true,
+    "has_upload": false
+  },
+  "15.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": true,
+    "has_upload": false
+  },
+  "16.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": true,
+    "has_upload": false
+  },
+  "17.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": true,
+    "has_upload": false
+  },
+  "18.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": false,
+    "has_upload": false
+  },
+  "19.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": true,
+    "has_upload": false
+  },
+  "2.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": true,
+    "has_upload": false
+  },
+  "20.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": true,
+    "has_upload": false
+  },
+  "21.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": true,
+    "has_upload": false
+  },
+  "22.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": true,
+    "has_upload": false
+  },
+  "23.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": true,
+    "has_upload": false
+  },
+  "24.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": true,
+    "has_upload": false
+  },
+  "25.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": true,
+    "has_upload": false
+  },
+  "26.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": true,
+    "has_upload": false
+  },
+  "27.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": true,
+    "has_upload": false
+  },
+  "28.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": true,
+    "has_upload": false
+  },
+  "29.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": true,
+    "has_upload": false
+  },
+  "2bis.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": true,
+    "has_upload": false
+  },
+  "3.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": true,
+    "has_upload": false
+  },
+  "30.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": true,
+    "has_upload": false
+  },
+  "31.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": true,
+    "has_upload": false
+  },
+  "32.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": true,
+    "has_upload": false
+  },
+  "33.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": true,
+    "has_upload": false
+  },
+  "34.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": true,
+    "has_upload": false
+  },
+  "35.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": true,
+    "has_upload": false
+  },
+  "36.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": true,
+    "has_upload": false
+  },
+  "37.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": true,
+    "has_upload": false
+  },
+  "39.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": true,
+    "has_upload": false
+  },
+  "3bis.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": true,
+    "has_upload": false
+  },
+  "4.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": true,
+    "has_upload": false
+  },
+  "40.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": true,
+    "has_upload": false
+  },
+  "41.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": true,
+    "has_upload": false
+  },
+  "42.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": true,
+    "has_upload": false
+  },
+  "43.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": true,
+    "has_upload": false
+  },
+  "44.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": true,
+    "has_upload": false
+  },
+  "45.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": true,
+    "has_upload": false
+  },
+  "46.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": true,
+    "has_upload": false
+  },
+  "47.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": true,
+    "has_upload": false
+  },
+  "48.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": true,
+    "has_upload": false
+  },
+  "49.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": true,
+    "has_upload": false
+  },
+  "4bis.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": true,
+    "has_upload": false
+  },
+  "4bisSHOP.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": true,
+    "has_upload": false
+  },
+  "5.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": false,
+    "has_upload": false
+  },
+  "50.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": true,
+    "has_upload": false
+  },
+  "51.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": true,
+    "has_upload": false
+  },
+  "52.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": true,
+    "has_upload": false
+  },
+  "53.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": true,
+    "has_upload": false
+  },
+  "54.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": true,
+    "has_upload": false
+  },
+  "55.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": true,
+    "has_upload": false
+  },
+  "56.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": true,
+    "has_upload": false
+  },
+  "57.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": true,
+    "has_upload": false
+  },
+  "58.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": true,
+    "has_upload": false
+  },
+  "59.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": true,
+    "has_upload": false
+  },
+  "6.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": true,
+    "has_upload": false
+  },
+  "60.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": true,
+    "has_upload": false
+  },
+  "61.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": true,
+    "has_upload": false
+  },
+  "62.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": true,
+    "has_upload": false
+  },
+  "63.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": true,
+    "has_upload": false
+  },
+  "64.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": true,
+    "has_upload": false
+  },
+  "65.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": true,
+    "has_upload": false
+  },
+  "66.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": true,
+    "has_upload": false
+  },
+  "67.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": false,
+    "has_upload": true
+  },
+  "68.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": false,
+    "has_upload": false
+  },
+  "69.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": true,
+    "has_upload": false
+  },
+  "7.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": true,
+    "has_upload": false
+  },
+  "70.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": true,
+    "has_upload": false
+  },
+  "71.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": true,
+    "has_upload": false
+  },
+  "72.php": {
+    "includes": [],
+    "redirects": [
+      "/PunchUser"
+    ],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": true,
+    "has_upload": false
+  },
+  "73.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": true,
+    "has_upload": false
+  },
+  "8.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": true,
+    "has_upload": false
+  },
+  "9.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": true,
+    "has_upload": false
+  },
+  "PunchSheetAction.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": true,
+    "has_upload": false
+  },
+  "connect.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": true,
+    "has_upload": false
+  },
+  "create_update_job.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": true,
+    "has_upload": false
+  },
+  "destroysession.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": false,
+    "has_role_redirect": false,
+    "has_upload": false
+  },
+  "disconnect.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": false,
+    "has_upload": false
+  },
+  "functions.inc.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": false,
+    "has_ip_check": false,
+    "has_role_redirect": false,
+    "has_upload": true
+  },
+  "index.php": {
+    "includes": [
+      "\\64\\x30\\x34\\56\\150\\x74\\x6d\\154"
+    ],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": false,
+    "has_role_redirect": false,
+    "has_upload": false
+  },
+  "register.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": true,
+    "has_upload": true
+  },
+  "update_dateinstalljobs.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": true,
+    "has_upload": false
+  },
+  "update_jobsdetails.php": {
+    "includes": [],
+    "redirects": [],
+    "has_session": true,
+    "has_ip_check": true,
+    "has_role_redirect": true,
+    "has_upload": false
+  }
+}
