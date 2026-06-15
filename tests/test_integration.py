@@ -50,6 +50,59 @@ def test_dev_hints_api():
     if data["show"]:
         assert data["hints"]["api_route"] == "/auth/login"
 
+def test_jobs_api_flow():
+    # 1. Create Job via FastAPI POST /jobs/
+    import time
+    dynamic_job_number = int(time.time()) % 100000
+    
+    payload = {
+        "job_number": dynamic_job_number,
+        "company": "FastAPI integration test comp",
+        "address": "456 FastAPI St",
+        "superlot": "Lot FastAPI",
+        "date_creation": "2026-06-15",
+        "pages": [
+            {"page": "1", "lot": "L1", "member": "Beam X", "gp": True}
+        ]
+    }
+    
+    response = client.post("/jobs/", json=payload)
+    assert response.status_code == 201
+    res_data = response.json()
+    assert "id" in res_data
+    assert res_data["message"] == "Job created successfully"
+    
+    # 2. Verify job is listed in GET /jobs/
+    list_response = client.get("/jobs/")
+    assert list_response.status_code == 200
+    jobs = list_response.json()
+    assert any(j["job_number"] == dynamic_job_number for j in jobs)
+    
+    # 3. Update Job via FastAPI PUT /jobs/{job_number}?year=2026
+    update_payload = {
+        "company": "FastAPI Updated Name",
+        "address": "789 FastAPI St",
+        "superlot": "Lot FastAPI Rev",
+        "date_creation": "2026-06-15",
+        "pages": [
+            {"page": "1", "lot": "L1", "member": "Beam X - Rev", "gp": True},
+            {"page": "2", "lot": "L2", "member": "New Column", "gp": False}
+        ]
+    }
+    update_response = client.put(f"/jobs/{dynamic_job_number}?year=2026", json=update_payload)
+    assert update_response.status_code == 200
+    assert update_response.json()["message"] == "Job updated successfully"
+
+    # Cleanup the test records from DB so we do not pollute the database
+    conn = sqlite3.connect("f:/pe/public_html/test-migration/skill4migration-2/storage/db.sqlite3")
+    cursor = conn.cursor()
+    cursor.execute("DELETE FROM tb_jobs WHERE job_number = ? AND strftime('%Y', date_creation) = '2026'", (dynamic_job_number,))
+    cursor.execute("DELETE FROM tb_jobs_details WHERE job_number = ? AND strftime('%Y', date_creation) = '2026'", (dynamic_job_number,))
+    cursor.execute("DELETE FROM tb_jobs_date_install WHERE job_number = ? AND strftime('%Y', date_creation) = '2026'", (dynamic_job_number,))
+    cursor.execute("DELETE FROM tb_wip WHERE job_number = ?", (str(dynamic_job_number),))
+    conn.commit()
+    conn.close()
+
 if __name__ == "__main__":
     print("Running FastAPI integration pytest suite manually...")
     # 단독으로도 실행 가능한 형태 제공
